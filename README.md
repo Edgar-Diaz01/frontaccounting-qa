@@ -1,0 +1,1 @@
+# FrontAccounting QA - Ambiente Docker
