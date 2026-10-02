@@ -5,3 +5,4 @@ RUN apt-get update && apt-get install -y \
  && docker-php-ext-configure gd --with-freetype --with-jpeg \
  && docker-php-ext-install mysqli gd zip mbstring \
  && rm -rf /var/lib/apt/lists/*
+COPY src/ /var/www/html/
