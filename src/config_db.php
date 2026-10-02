@@ -23,15 +23,15 @@ $def_coy = 0;
 $tb_pref_counter = 1;
 
 $db_connections = array (
-  0 => 
-  array (
-    'name' => 'Empresa de Pruebas QA',
-    'host' => 'db',
-    'port' => '3306',
-    'dbname' => 'frontaccounting',
-    'collation' => 'utf8_xx',
-    'tbpref' => '0_',
-    'dbuser' => 'root',
-    'dbpassword' => 'rootpass',
-  ),
+ 0 => 
+    array (
+      'name' => 'Empresa de Pruebas QA',
+      'host' => 'mysql-34436714-danieldiazb-fc67.e.aivencloud.com',
+      'port' => '18251',
+      'dbuser' => 'avnadmin',
+      'dbpassword' => 'AVNS_qX7AIKD-RUHH0jSHyJ7',
+      'dbname' => 'defaultdb',
+      'collation' => 'utf8_xx',
+      'tbpref' => '0_',
+    ),
 );
